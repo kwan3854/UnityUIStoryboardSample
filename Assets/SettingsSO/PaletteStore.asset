@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0edd4d6dec9974f11ba4b078ca3a0e1e, type: 3}
+  m_Name: PaletteStore
+  m_EditorClassIdentifier: 
+  _colorPalette:
+    _entries:
+      _keys: []
+      _values: []
+    _themes:
+      _keys:
+      - e6b15a05-091a-48e7-b27f-d88aaafe74c0
+      _values:
+      - _id: e6b15a05-091a-48e7-b27f-d88aaafe74c0
+        _name:
+          _value: Default
+    _entryOrders:
+      _ids: []
+    _themeOrders:
+      _ids:
+      - e6b15a05-091a-48e7-b27f-d88aaafe74c0
+    _activeThemeId: e6b15a05-091a-48e7-b27f-d88aaafe74c0
+  _gradientPalette:
+    _entries:
+      _keys: []
+      _values: []
+    _themes:
+      _keys:
+      - 04188742-1cba-4116-a725-f63fda3d21ed
+      _values:
+      - _id: 04188742-1cba-4116-a725-f63fda3d21ed
+        _name:
+          _value: Default
+    _entryOrders:
+      _ids: []
+    _themeOrders:
+      _ids:
+      - 04188742-1cba-4116-a725-f63fda3d21ed
+    _activeThemeId: 04188742-1cba-4116-a725-f63fda3d21ed
+  _characterStylePalette:
+    _entries:
+      _keys: []
+      _values: []
+    _themes:
+      _keys:
+      - 1ecac1d8-d945-4da5-b5a8-d2e02c8ccfbb
+      _values:
+      - _id: 1ecac1d8-d945-4da5-b5a8-d2e02c8ccfbb
+        _name:
+          _value: Default
+    _entryOrders:
+      _ids: []
+    _themeOrders:
+      _ids:
+      - 1ecac1d8-d945-4da5-b5a8-d2e02c8ccfbb
+    _activeThemeId: 1ecac1d8-d945-4da5-b5a8-d2e02c8ccfbb
+  _characterStyleTMPPalette:
+    _entries:
+      _keys: []
+      _values: []
+    _themes:
+      _keys:
+      - 7bc63b95-bad8-4dfc-94aa-d5a1e046321f
+      _values:
+      - _id: 7bc63b95-bad8-4dfc-94aa-d5a1e046321f
+        _name:
+          _value: Default
+    _entryOrders:
+      _ids: []
+    _themeOrders:
+      _ids:
+      - 7bc63b95-bad8-4dfc-94aa-d5a1e046321f
+    _activeThemeId: 7bc63b95-bad8-4dfc-94aa-d5a1e046321f
+  _missingEntryErrorLevel: 1

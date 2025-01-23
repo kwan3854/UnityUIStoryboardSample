@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe1398cb62064858927eda0c3e2413d1, type: 3}
+  m_Name: StoryboardManagerData
+  m_EditorClassIdentifier: 
+  nodes:
+  - id: 1
+    isFolder: 0
+    name: MainStoryboard
+    assetPath: Assets/UIStoryboard/MainStoryboard.asset
+    parentId: 2
+    childrenIds: 
+  - id: 2
+    isFolder: 1
+    name: MainScene
+    assetPath: 
+    parentId: 0
+    childrenIds: 0100000005000000
+  - id: 5
+    isFolder: 0
+    name: SettingsWindowStoryboard
+    assetPath: Assets/UIStoryboard/SettingsWindowStoryboard.asset
+    parentId: 2
+    childrenIds: 
+  - id: 6
+    isFolder: 1
+    name: NewFolder
+    assetPath: 
+    parentId: 0
+    childrenIds: 
+  - id: 7
+    isFolder: 0
+    name: NewStoryboard
+    assetPath: Assets/UIStoryboard/NewStoryboard.asset
+    parentId: 0
+    childrenIds: 
+  nextId: 8

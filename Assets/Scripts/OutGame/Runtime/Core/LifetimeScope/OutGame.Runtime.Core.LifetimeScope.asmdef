@@ -1,0 +1,24 @@
+{
+    "name": "OutGame.Runtime.Core.LifetimeScope",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
+        "GUID:08b38f39e2d9e594389b7a4cf4c2c338",
+        "GUID:4f682e06dbb3e624faedad9cc27106cc",
+        "GUID:2359c074672083046b6ff6b309700f8e",
+        "GUID:3f222f656295449599c5aecc37d2d31f",
+        "GUID:8a9698c9ad3464721991488e8fffa915",
+        "GUID:bc5381753f297488ebeba8cdbd850f93",
+        "GUID:205c13d54100945d8ab2c8f0e7b10822",
+        "GUID:1f23959c82b6e474793e73c426398107"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

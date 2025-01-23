@@ -1,0 +1,23 @@
+{
+    "name": "OutGame.Runtime.UI.Page.Presentation",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:5c01796d064528144a599661eaab93a6",
+        "GUID:2359c074672083046b6ff6b309700f8e",
+        "GUID:3f222f656295449599c5aecc37d2d31f",
+        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
+        "GUID:4956ba1e371f248ebb6765dd0218dac7",
+        "GUID:0420619da1e9a4dd1a52eb59fe202895",
+        "GUID:205c13d54100945d8ab2c8f0e7b10822"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
