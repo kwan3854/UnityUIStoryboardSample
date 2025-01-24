@@ -72,7 +72,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e53c3629090e14839b8d1ecbb7b81533, type: 3}
-  m_Name: MainStoryboard
+  m_Name: CompletedStoryboardSample
   m_EditorClassIdentifier: 
   nodes:
   - {fileID: 8567805004693562258}

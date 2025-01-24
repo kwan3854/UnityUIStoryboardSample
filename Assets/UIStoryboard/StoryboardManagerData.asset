@@ -15,32 +15,20 @@ MonoBehaviour:
   nodes:
   - id: 1
     isFolder: 0
-    name: MainStoryboard
-    assetPath: Assets/UIStoryboard/MainStoryboard.asset
+    name: CompletedStoryboardSample
+    assetPath: Assets/UIStoryboard/CompletedStoryboardSample.asset
     parentId: 2
     childrenIds: 
   - id: 2
     isFolder: 1
-    name: MainScene
+    name: Sample Folder
     assetPath: 
     parentId: 0
-    childrenIds: 0100000005000000
-  - id: 5
-    isFolder: 0
-    name: SettingsWindowStoryboard
-    assetPath: Assets/UIStoryboard/SettingsWindowStoryboard.asset
-    parentId: 2
-    childrenIds: 
-  - id: 6
-    isFolder: 1
-    name: NewFolder
-    assetPath: 
-    parentId: 0
-    childrenIds: 
+    childrenIds: 0100000007000000
   - id: 7
     isFolder: 0
-    name: NewStoryboard
-    assetPath: Assets/UIStoryboard/NewStoryboard.asset
-    parentId: 0
+    name: MockStoryboardSample
+    assetPath: Assets/UIStoryboard/MockStoryboardSample.asset
+    parentId: 2
     childrenIds: 
   nextId: 8
