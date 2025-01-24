@@ -59,7 +59,8 @@ namespace OutGame.Runtime.UI.Presentation.Presenter
                     UpdateButtonState(currentId, currentPassword);
 
                     await UniTask.CompletedTask;
-                }).Forget();
+                }, ExitCancellationToken)
+                .Forget();
 
             // Password input event processing
             _view.OnPasswordInputFieldEditAsync
@@ -69,10 +70,12 @@ namespace OutGame.Runtime.UI.Presentation.Presenter
                     UpdateButtonState(currentId, currentPassword);
                     
                     await UniTask.CompletedTask;
-                }).Forget();
+                }, ExitCancellationToken)
+                .Forget();
             
             _view.OnSignInButtonClickedAsync
-                .ForEachAwaitAsync(async _ => await OnSignInButtonClicked())
+                .ForEachAwaitAsync(async _ => await OnSignInButtonClicked()
+                , ExitCancellationToken)
                 .Forget();
         }
 
