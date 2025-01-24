@@ -69,21 +69,6 @@
       },
       "url": "https://package.openupm.com"
     },
-    "com.kwanjoong.unityuistoryboard": {
-      "version": "file:UnityUIStoryboard",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.cysharp.unitask": "2.5.0",
-        "jp.hadashikick.vcontainer": "1.6.0",
-        "com.harumak.unityscreennavigator": "1.7.0",
-        "com.kwanjoong.screensystem": "0.1.0",
-        "com.cysharp.messagepipe": "1.8.0",
-        "com.cysharp.messagepipe.vcontainer": "1.8.0",
-        "com.harumak.upalette": "2.5.0",
-        "com.github.siccity.xnode": "1.8.0"
-      }
-    },
     "com.unity.addressables": {
       "version": "2.2.2",
       "depth": 0,
