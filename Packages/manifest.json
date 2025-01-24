@@ -8,6 +8,8 @@
     "com.github.siccity.xnode": "https://github.com/Siccity/xNode.git",
     "com.harumak.unityscreennavigator": "https://github.com/Haruma-K/UnityScreenNavigator.git?path=/Assets/UnityScreenNavigator",
     "com.harumak.upalette": "https://github.com/Haruma-K/uPalette.git?path=/Assets/uPalette",
+    "com.kwanjoong.screensystem": "0.1.0",
+    "com.kwanjoong.unityuistoryboard": "0.1.1",
     "com.unity.addressables": "2.2.2",
     "com.unity.ai.navigation": "2.0.5",
     "com.unity.collab-proxy": "2.6.0",
@@ -53,9 +55,7 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0",
-    "com.kwanjoong.screensystem": "0.1.0",
-    "com.kwanjoong.unityuistoryboard": "0.1.1"
+    "com.unity.modules.xr": "1.0.0"
   },
   "scopedRegistries": [
     {

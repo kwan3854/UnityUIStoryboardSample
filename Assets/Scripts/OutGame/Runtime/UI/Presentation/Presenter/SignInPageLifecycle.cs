@@ -30,6 +30,7 @@ namespace OutGame.Runtime.UI.Presentation.Presenter
         {
             var model = new SignInPageModel();
             _view.SetView(model);
+            
             return UniTask.CompletedTask;
         }
     
@@ -40,7 +41,7 @@ namespace OutGame.Runtime.UI.Presentation.Presenter
             _view.OnSignInModalButtonClickedAsync.ForEachAwaitAsync(async _ =>
             {
                 await _modalManager.Push(new SignInModalBuilder(true), ExitCancellationToken);
-            });
+            }, ExitCancellationToken);
         }
     }
 }

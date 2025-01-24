@@ -43,17 +43,23 @@ namespace OutGame.Runtime.UI.Presentation.Presenter
             _view.OnNextPageButtonClickedAsync.ForEachAwaitAsync(async _ =>
             {
                 _publisher.SendPushEvent(new EntryPageBuilder());
-            });
+
+                await UniTask.CompletedTask;
+            }, ExitCancellationToken);
             
             _view.OnPrevPageButtonClickedAsync.ForEachAwaitAsync(async _ =>
             {
                 _publisher.SendPopEvent();
-            });
+                
+                await UniTask.CompletedTask;
+            }, ExitCancellationToken);
             
             _view.OnNextPageNoStackButtonClickedAsync.ForEachAwaitAsync(async _ =>
             {
                 _publisher.SendPushEvent(new EntryPageBuilder(true, false));
-            });
+                
+                await UniTask.CompletedTask;
+            }, ExitCancellationToken);
             
             _view.OnPopAllButtonClickedAsync.ForEachAwaitAsync(async _ =>
             {
@@ -67,7 +73,7 @@ namespace OutGame.Runtime.UI.Presentation.Presenter
                     // Wait for the page to be popped
                     await UniTask.WaitUntil(() => targetContainer.Pages.Count < prevCount);
                 }
-            });
+            }, ExitCancellationToken);
         }
     }
 }
